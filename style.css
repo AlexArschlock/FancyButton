@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(24, 24, 82);
+}
+
+.FancyButton{
+    display: flex;
+    position: absolute;
+
+    top: 40%;
+    left: 45%;
+    color: #ff8300;
+    background-color: rgb(24, 24, 82);
+    font-size: 35px;
+    font-family: Times New Roman;
+
+    border: 3.5px solid;
+    padding: 25px;
+    
+}
+
+.FancyButton:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+    transform: translateY(5px);
+    box-shadow: 2px 6px 10px #FFFF33;
+    color: #FFFF33;
+    font-family: Times New Roman;
+
+}
